@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="author" content="José Cabello">
+<meta name="description" content="Eco-bicicletas: página de arriendo de bicicletas para facilitar la trayectoria del cliente, además de poder contactarnos en la sección de contactos.">
+<meta name="keywords" content="eco-bicicletas, arrienda bicicletas, arrienda y lleva, bicicletas">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arriendo de eco-bicicletas</title>
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<nav class="navbar">
+<a href="index.html" class="logo"> eco-bicicletas</a>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="nosotros.html">Nosotros</a></li>
+<li><a href="servicios.html">Servicios</a></li>
+<li><a href="contactos.html" class="active">Contactos</a></li>
+<li><a href="finanzas.html">Finanzas</a></li>
+</ul>
+</nav>
+
+<header>
+
+<div class="recuadrov6">
+<h3>¡Contactanos si tienes alguna duda!</h3>
+<p>¿Tienes dudas, algún problema con tu arriendo o quieres reservar una bicicleta? Nuestro equipo está disponible para <em>ayudarte en todo lo que necesites desde resolver fallas tecnicas hasta coordinar la entrega</em> y devolución de tu bicicleta. Escríbenos por nuestras redes sociales o completa el formulario de contacto y te responderemos a la brevedad para asistirte de la mejor manera.</p>
+
+<form id="form-contacto">
+    <div class="campo-grupo">
+        <label for="nombreContacto">Nombre</label>
+        <input type="text" id="nombreContacto" placeholder="Escribe tu nombre">
+    </div>
+    <div class="campo-grupo">
+        <label for="telefonoContacto">Teléfono</label>
+        <input type="text" id="telefonoContacto" placeholder="Ej: 987654321">
+    </div>
+    <button type="submit" class="btn-confirmar">Enviar</button>
+    <div id="errores-contacto" style="margin-top: 10px;"></div>
+</form>
+
+<div class="redes-container">
+<span class="redes-titulo">Redes:</span>
+<a href="https://www.instagram.com" target="_blank" title="Instagram"><img src="IMG/instagram.png" alt="Instagram"/></a>
+<a href="https://mail.google.com" target="_blank" title="Gmail"><img src="IMG/gmaiil.png" alt="Gmail"/></a>
+<a href="https://web.whatsapp.com" target="_blank" title="Whatsapp"><img src="IMG/whatsapp.png" alt="Whatsapp"/></a>
+</div>
+</div>
+
+<div class="recuadrov1">
+<h3>Inicia sesión</h3>
+<p id="mensajeLogin"></p>
+<input id="usuario" type="text" placeholder="Escribe el usuario">
+<input id="clave" type="password" placeholder="Escribe la clave">
+<button id="btnIngresar">Iniciar sesión</button>
+</div>
+
+<div id="panelAdmin" style="display:none;">
+<h3>panel de inicio de sesión</h3>
+<p>Bienvenido admin</p>
+<button id="btnCerrarSesion">cerrar sesión</button>
+</div>
+</header>
+
+<footer>
+</footer>
+
+<section>
+</section>
+
+<main>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

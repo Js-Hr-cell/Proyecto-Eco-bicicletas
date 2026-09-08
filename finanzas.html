@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="José Cabello">
+    <meta name="description" content="Eco-bicicletas: página de arriendo de bicicletas para facilitar la trayectoria del cliente, además de poder contactarnos en la sección de contactos.">
+    <meta name="keywords" content="eco-bicicletas, arrienda bicicletas arrienda y lleva, bicicletas, finanzas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arriendo de eco-bicicletas - Finanzas</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo"> eco-bicicletas</a>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+            <li><a href="finanzas.html" class="active">Finanzas</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="finanzas-wrapper">
+   
+                <h2></h2>
+             
+                <p>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor-finanzas" style="flex-direction: column; align-items: center; gap: 20px;">
+        <div class="card-finanzas">
+            <h2 class="titulo-costos">Costos fijos</h2>
+            <div class="grid-costos">
+                <div class="columna">
+                    <p>dominio nic chile: 10.990$  / año</p>
+                    <p>hosting (Hoster):  12.000$ / año</p>
+                </div>
+                <div class="columna">
+                    <p>tarifa Hora Dev: 17.670$ /hr</p>
+                    <p>horas Estimadas: 24 hrs (345.656$)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-finanzas" style="padding: 20px;">
+            <h2 class="titulo-costos">calculadora google ads (SEM)</h2>
+            <form id="form-finanzas">
+                <div class="campo-grupo">
+                    <label for="cpc">costo por Click estimado (pesos CLP en $CLP)</label>
+                    <input type="text" id="cpc" name="cpc" placeholder="Ej: 150">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="clics">cantidad de clics mensuales esperados</label>
+                    <input type="text" id="clics" name="clics" placeholder="Ej: 500">
+                </div>
+
+                <div class="boton-contenedor" style="text-align: center; margin-top: 10px;">
+                    <button type="submit" class="btn-confirmar">calcular presupuesto</button>
+                </div>
+
+                <div id="resultado-finanzas" style="margin-top: 12px;"></div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Eco-Bicicletas - Arriendo y Movilidad Sostenible</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
