@@ -2,7 +2,7 @@ Se uso ia en estas lineas (principalmente en el js osea en el script.js
 
 JS=
 -linea (155-160) esto principalmete tuve que usar claude por que esta parte no sabia bien como usar el localstorage para que todo se guardara al recargar la pagina
--linea (238-247) esta parte la cual era la de contactos donde si el usuario queria contactarnos no sabia muy bien el como hacerla ya que se me olvido el como usar el addeventlistener y los if y else if, asi que se lo pedi a claude lo unico que hizo especificamente en estas lineas fue el definir las variables con el const nombre y telefono.
+-linea (241-260) esta parte la cual era la de contactos donde si el usuario queria contactarnos no sabia muy bien el como hacerla ya que se me olvido el como usar el addeventlistener y los else if(260 linea), asi que se lo pedi a claude lo unico que hizo especificamente en estas lineas fue el definir las variables con el const nombre y telefono y errores y los if 
 
 CSS=
 -en la primera linea del css especificamente el "margin: 0; overflow-x: hidden;" que servian principalmente pa que la pagina no se rompa en celu no me acordaba bien el como usarlos sabia que servias pa eso pero no sabia donde colocarlos entonces le pregunte a claude para hacer esta parte. (lo demas de css lo hice yo basandome en el foceto que tenia de lo que seria mi pàgina web :D) y algunas dudas como tal si se las pregunte a claude pero no copie y pegue solo le preguntaba el como usarlo bien.
@@ -10,4 +10,3 @@ CSS=
 HTML=
 
 en los html lo unico donde no supe el como hacerlo fue en el html de contactos especificamente en la linea de 44 y 46 por que no sabia como hacer que las imagenes me llevaran directamente a la pagina web sin dejarselo por separado, como estaba cansado se lo pedi directamente a claude.
-
